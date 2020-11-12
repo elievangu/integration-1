@@ -1,16 +1,166 @@
-<!DOCTYPE html>
 <html>
 <head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Mon integration ux</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='../css/style.css'>
-  <!--on a pas besoins du fichier js-->  
-    <!--<script src='main.js'></script>-->
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <title>
+        Freebox POP
+    </title>
+
+    <nav id="navigation">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">À propos</a></li>
+          <li><a href="#">Produits</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
 </head>
-<body>
- <!--l'integration se fais ici-->
-    
+
+<body> 
+    <!--1er bloc -->
+<div id='first-box'>
+
+    <div class="freebox-text">
+        <div class="grand-texte">Freebox POP</div>
+            <p>
+        Marre de ramer en WI-FI dès que vous vous éloignez de votre box
+        Freebox Pop, profitez d'une connexion WI-FI rapide et fiable même
+        avec grand nombre  d’appareils connectés (fonction MU-MIMO).<br><br>
+        Pour connecter vos équipements mobiles à votre réseau Wi-Fi, rien de
+        plus simple ! Scannez le QR Code qui s'affiche sur le Server Freebox Pop 
+        et vous êtes connecté ! Plus besoin de saisir de code Wi-Fi.<br><br>
+        Et pour plus de sécurité, Freebox Pop intègre le nouveau protocole de
+        chiffrement WPA3, pour améliorer la protection de vos connexions.
+            </p>
+                <div id='bouton'>
+                    En savoir plus
+                </div>
+    </div>
+
+    <div class="freebox">
+        <section class="form">
+            <form>
+                <h1>Formulaire</h1>
+                    <section class="protein">
+                        <label for="email">E-mail</label>
+                            <br>
+                        <input type="text" name="email" id="email">
+                    </section>
+
+                    <section class="password">
+                        <label for="email">Password</label>
+                            <br>
+                        <input type="password" name="password" id="password">
+                    </section>
+                            <br>
+                        <div id="bouton">Log In</div>
+                    </section>
+            </form>
+        </div>
+    </div>
+
+   <!--2eme bloc -->
+   
+    <div id="experienceTV">
+        <div class="grand-texte-CANAL">
+            Une nouvelle expérience TV
+        </div>
+            <div id="mandalorian">
+            <img src="../images/canal +.png" width="500">
+                <p id="text-mandalorian">Des chaînes disney à la demande pour 
+                    le plus grand bonheur de toutes la famille !
+                    <br><br>
+                    Chaque mois des nouveautées à découvrir en exclusivité.
+                </p>
+        </div>
+        <div id="canal">
+            <img src="../images/Mandalorian.png" width="500">
+                <p id="text-canal">
+                    Ne ratez plus aucun match et les buts de la ligue 1 !
+                    <br><br>
+                Suivez les matchs de champions   en exclusivité et retrouvez les sur la chaîne replay sur canal + sport.
+                </p>
+        </div>
+    </div>
+
+
+    https://github.com/Gibert2/C-Users-theog-integration-project
+    git branch -M main
+git push -u origin main
+     <!--BLOC NETFLIX-->
+
+
+  <div id='netflix-box'>
+    <div class="netflix-text">
+        <div class="grand-texte">NETFLIX</div>
+            <p>Profitez de la vidéo à la demande !
+                <br><br>
+            Venez découvrir notre sélection de films en
+            qualité HD.
+                <br><br>
+            Accéder à des tonnes de contenus sur votre 
+            TV. Grâce à l'Assistant Google et la fonction 
+            Chromecast intégrés, diffusez votre contenu 
+            de votre smartphone sur votre TV en utilisant 
+            votre voix. 
+            </p>
+                <div id="bouton">
+                    Rechercher
+                </div>
+            </div>
+            <div id='image-netflix'>
+                <img src="../images/family bisness.png" width="600"><br><br>
+                <img src="../images/netflix logo.png">
+            </div>
+         </div>   
+    </div>
+
+
+
+         <!--BLOC MULTI TV -->
+
+    <div id='multitv-box'>
+            <div class="grand-texte-multitv">Profitez du Multi-TV</div>
+                <img src="../images/multi.png" width="800">
+                    <h1>À chacun son programme !</h1>
+                        <p>Permettez à chaque membre de votre famille de regarder un programme
+                        différent en équipant les téléviseurs de votre logement d'un boîtier
+                        TV Freebox Pop supplémentaire.
+                        </p>
+            </div>
+    </div>
 </body>
+
+<footer>
+    <div id="contener-footer">
+        <div class="colonne-footer-1">
+            <h1>Trouver un Free Center</h1>
+                <p>
+                Le meilleur endroit pour découvrir tous les services Freebox, 
+                vous abonner, prendre en main les derniers mobiles ou obtenir 
+                de l’assistance avec nos conseillers ! Rendez-vous en Free Center.
+                <br>
+                    <input type="text" name="text" class="search" placeholder="Ville ou code postale">
+
+                </p>
+        </div>
+
+        <div class="colonne-footer-2">
+            <h1>Suivez-nous</h1>
+                <p>
+                    Pour vous tenir au courant des toutes dernières actualités, 
+                    mises à jour, exclusivité, promos, tout sur Free.
+                </p> 
+                    <div id="rs-footer">
+                        <img src="../images/icone fb.png" style="
+                margin-left:50px" width="70">
+                        <img src="../images/icone twitter.png" style="
+                margin-left:50px" width="70">
+                        <img src="../images/icone youtube.png" style="
+                margin-left:50px" width="70">
+                        <img src="../images/icone insta.png" style="
+                margin-left:50px" width="70">
+                    </div>
+        </div>  
+    </div>
+</footer>
 </html>

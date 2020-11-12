@@ -1,0 +1,216 @@
+body {
+    position: relative;
+width: 798px;
+height: 1927px;
+
+background: #FFFFFF;
+  }
+
+.grand-texte {
+      font-size: 60px;
+      font-weight: bold;
+  }
+
+#navigation ul {
+    column-count: 4;
+    width: 800px;
+    display: inline-block;
+    list-style:none;
+    font-size: 20px;
+    padding: 10px;
+}
+
+#navigation li {
+    margin-left:10px;
+}
+
+a {
+    text-decoration: none;
+    color:black;
+}
+
+a:hover {
+    color:#EB5757;
+    font-weight:bold;
+}
+
+
+
+
+
+  /* PREMIER BLOC FREEBOX */
+
+#first-box {
+    text-align: justify;
+    background-color: #ECECEC;
+    padding : 100px;
+    width: 1100px;
+    display:inline-flex;
+
+}
+
+.freebox-formulaire {
+    width: 300px;
+    height: 200px;
+    padding: 30px;
+}
+
+.freebox-text {
+width: 700px;
+margin-right:100px;
+}
+
+.freebox-text p {
+    margin-bottom:30px;
+    }
+
+#bouton {
+    background-color:#EB5757;
+    box-shadow: 1px 1px 5px rgb(59, 59, 59);
+    color:white;
+    font-size: 20px;
+    font-weight: bold;
+    height: 30px;
+    width:200px;
+    border-radius: 30px;
+    text-align: center;
+    padding:10px;
+}
+
+
+  /* FORMULAIRE */
+  
+#email {
+    padding: 10px;
+    margin: 20px;
+}
+
+#password {
+    padding: 10px;
+    margin: 20px;
+}
+
+form{
+    font-size: 16px;
+    background-color: white;
+    border-radius: 10px;
+    text-align:center;
+    padding: 30px;
+    width: 80%;
+    box-shadow: 1px 1px 5px rgb(173, 173, 173);
+}
+
+
+ /* BLOC CANAL */
+
+ #experienceTV {
+     width: 1100px;
+     margin:auto;
+}
+
+ .grand-texte-CANAL {
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+    margin:auto;
+    padding-top:50px;
+    padding-bottom:30px;
+    width: 1100px;
+}
+
+#mandalorian {
+    float:right;
+    width: 500px;
+    font-size: 20px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+#canal {
+    float:left;
+    width: 500px;
+    font-size: 20px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+
+ /* BLOC NETFLIX */
+
+#netflix-box {
+    text-align: justify;
+    background-color : black;
+    padding : 100px;
+    width: 1100px;
+    display:inline-flex;
+
+}
+
+.netflix-text {
+    width: 500px;
+    margin-right:100px;
+    color:white
+    }
+
+
+
+ /* BLOC MULTITV */
+
+#multitv-box {
+    text-align: center;
+    padding : 100px;
+    width: 1100px;
+}
+
+.grand-texte-multitv {
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom:50px;
+}
+
+#multitv-box p {
+    font-size: 30px;
+    padding-top:10px;
+}
+
+#multitv-box h1 {
+    font-size: 40px;
+    margin-top:60px;
+}
+
+
+ /* FOOTER */
+
+
+footer {
+    text-align: justify;
+    background-color : #333333;
+    height: 300px;
+    padding : 100px;
+    width: 1100px;
+    color:white;
+}
+
+.colonne-footer-1{
+    width: 500px;
+    float:left;
+}
+
+
+.colonne-footer-2{
+    width: 500px;
+    float:right;
+}
+
+.search {
+    border:20px;
+    border-radius: 30px;
+    padding:20px;
+    width: 500px;
+    margin-top:100px;
+}
+
+#rs-footer {
+    float:right;
+    margin-top:100px;
+}
